@@ -5,7 +5,7 @@ import ChatContainer from '../components/ChatContainer'
 import { ChatContext } from '../../context/ChatContext.jsx'
 
 const HomePage = () => {
-  const { selectedUser } = useContext(ChatContext)
+  const { selectedUser} = useContext(ChatContext)
 
   return (
     <div className="w-full h-screen bg-gradient-to-br from-[#0d0d0d] to-[#1a1a1a] sm:px-[10%] sm:py-[5%]">
